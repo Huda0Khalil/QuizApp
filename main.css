@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, #8E2DE2, #4A00E0);
+}
+.head{
+    margin: 10px auto;
+    background-color: #E3CFE6;
+    width: calc(100% - 20px);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    outline: 2px solid #A682ED;
+    border-radius: 10%;
+    overflow: hidden;
+
+}
+.head #start{
+    padding: 5px 10px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #E697D9;
+    border-color: #8E2DE2;
+    transition: 0.3s;
+}
+.head #start:hover{
+    background-color: #A682ED;
+    color: #e5e1e1;
+
+}
+.head .timer{
+    font-size: 25px;
+  font-weight: bold;
+}
+.progress{
+    position: relative;
+    width: 50%;
+    height: 10px;
+    background-color: #E3CFE6;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.progress .bar{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.progress .prog{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 20px;
+    color: yellow;
+
+}
+.container{
+    background-color: #E3CFE6;
+    max-width: 900px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.container .question{
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+.container .ans{
+    display: block;
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 600;
+
+}
+.container input[type=button]{
+   margin: 10px auto;
+   font-weight: 600;
+
+}
+input[type=button]{
+    background-color: #E697D9;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
